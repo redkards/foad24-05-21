@@ -26,13 +26,18 @@ btn1.addEventListener("click", () => {
     faq.style.color = "white";
   }
 });
-
-question1.style.listStyleType =
-  // affichage réponses
-  réponse1.style.visibility = "hidden";
+faq.style.fontSize = "1.5rem";
+faq.style.textDecoration = "none";
+// affichage réponses
+réponse1.style.visibility = "hidden";
+réponse1.style.color = "red";
+réponse1.style.fontSize = "1.5rem";
 réponse2.style.visibility = "hidden";
+réponse2.style.color = "pink";
 réponse3.style.visibility = "hidden";
+réponse3.style.color = "limegreen";
 réponse4.style.visibility = "hidden";
+réponse4.style.color = "lightblue";
 
 btnq1.addEventListener("click", () => {
   if (réponse1.style.visibility === "visible") {
