@@ -27,8 +27,9 @@ btn1.addEventListener("click", () => {
   }
 });
 
-// affichage réponses
-réponse1.style.visibility = "hidden";
+question1.style.listStyleType =
+  // affichage réponses
+  réponse1.style.visibility = "hidden";
 réponse2.style.visibility = "hidden";
 réponse3.style.visibility = "hidden";
 réponse4.style.visibility = "hidden";
