@@ -27,7 +27,7 @@ btn1.addEventListener("click", () => {
   }
 });
 faq.style.fontSize = "1.5rem";
-faq.style.textDecoration = "none";
+
 // affichage réponses
 réponse1.style.visibility = "hidden";
 réponse1.style.color = "red";
