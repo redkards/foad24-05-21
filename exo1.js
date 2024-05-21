@@ -19,13 +19,19 @@ let exo2 = document.querySelector(".exo2");
 
 btn1.addEventListener("click", () => {
   if (faq.style.backgroundColor == "gray") {
-    faq.style.backgroundColor = "silver";
+    faq.style.backgroundColor = "yellow";
     faq.style.color = "black";
   } else {
     faq.style.backgroundColor = "gray";
     faq.style.color = "white";
   }
 });
+
+// deuxième methode + css
+// btn1.addEventListener("click", () => {
+//   faq.classList.toggle("active");
+// });
+
 faq.style.fontSize = "1.5rem";
 
 // affichage réponses

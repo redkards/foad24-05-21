@@ -1,3 +1,11 @@
 button:hover {
   background-color: coral;
 }
+
+.faq {
+  background-color: gray;
+}
+
+.faq.active {
+  background-color: yellow;
+}

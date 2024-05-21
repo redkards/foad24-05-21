@@ -1,0 +1,32 @@
+#burger {
+  font-size: 5rem;
+  cursor: pointer;
+}
+#burger:hover {
+  color: aqua;
+}
+#burger.active {
+  background-color: blue;
+}
+.questions {
+  font-size: 1rem;
+  position: fixed;
+  min-height: 50vh;
+  width: 300px;
+  background-color: chartreuse;
+  left: -400px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.questions.active {
+  left: 0;
+}
+
+.réponse {
+  visibility: hidden;
+}
+
+.réponse.active {
+  visibility: visible;
+}
